@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background: #0f172a;
+  color: #f8fafc;
+}
+
+.contenedor-app {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.cabecera {
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid #334155;
+  padding-bottom: 1rem;
+}
+
+.cabecera__etiqueta {
+  margin: 0;
+  font-size: 0.8rem;
+  color: #38bdf8;
+}
+
+.cabecera__titulo {
+  margin: 0.25rem 0;
+}
+
+.cabecera__subtitulo,
+.tarjeta-concierto__escenario,
+.panel-estado {
+  color: #94a3b8;
+}
+
+.zona-principal {
+  display: grid;
+  gap: 1rem;
+}
+
+.tarjeta-concierto {
+  background: #1e293b;
+  border: 1px solid #334155;
+  border-radius: 10px;
+  padding: 1.25rem;
+}
+
+.tarjeta-concierto__cabecera {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.tarjeta-concierto__genero {
+  color: #38bdf8;
+  font-weight: 600;
+}
+
+.tarjeta-concierto__horario {
+  background: #0f172a;
+  padding: 0.2rem 0.6rem;
+  border-radius: 999px;
+}
+
+.tarjeta-concierto__artista {
+  margin: 0.75rem 0 0.25rem;
+}
+
+.tarjeta-concierto__boton {
+  background: #38bdf8;
+  color: #082f49;
+  font-weight: 700;
+  border: none;
+  border-radius: 6px;
+  padding: 0.6rem 1rem;
+  cursor: pointer;
+}
+
+.tarjeta-concierto__boton:hover {
+  background: #0284c7;
+  color: #fff;
+}
+
+.panel-estado {
+  background: #1e293b;
+  border: 1px dashed #334155;
+  border-radius: 8px;
+  padding: 0.9rem 1rem;
+}
